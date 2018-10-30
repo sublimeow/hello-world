@@ -12,12 +12,12 @@ public class Work1 {
                 System.out.print("Привет " + name + " напиши фамилию:");
                 String lastname = scan.nextLine();
                 System.out.print("Отлично " + lastname + " " + name + " сколько тебе лет?");
-                String age = scan.nextLine();
+                int num = scan.nextInt();
                 System.out.print("Хорошо " + name + " напишите Ваш пол M/W:");
                 char w = scan.next().charAt(0);
                 //я не понял как сделать правильно char, сюда нужны условия 
                 
-                System.out.println(name + " " + lastname + " " + age + " возраст" + " " + "пол: " + w + " ");        
+                System.out.println(name + " " + lastname + " " + num + " возраст" + " " + "пол: " + w + " ");        
     }
     
     
