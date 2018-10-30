@@ -2,23 +2,23 @@ import java.util.Scanner;
 
 public class Work1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Scanner scanirovat = new Scanner(System.in);
-        System.out.print("Введите ФИО: ");
-		String name = scanirovat.next();
-                System.out.println ("Привет " + name);
-                System.out.println(" Сколько Вам лет? ");
-                
-                int vozrast = scanirovat.nextInt();
-                System.out.print (" Отлично " +name);
-                System.out.println(" твой возраст " +vozrast);
-                System.out.println(" Введите Ваш пол M/W: ");
 
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        
+                System.out.print("Привет, как тебя зовут?: ");
+                String name = scan.nextLine();
+                System.out.print("Привет " + name + " напиши фамилию:");
+                String lastname = scan.nextLine();
+                System.out.print("Отлично " + lastname + " " + name + " сколько тебе лет?");
+                String age = scan.nextLine();
+                System.out.print("Хорошо " + name + " напишите Ваш пол:");
+                String pol = scan.nextLine();
+                //я не понял как сделать Char, хотел сделать выбор типа woman / man
+                //но потом понял тут нужны условия
                 
-                
+                System.out.println(name + " " + lastname + " " + age + " возраст" + " " + "пол: " + pol + " ");        
     }
     
     
