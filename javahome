@@ -16,7 +16,6 @@ public class Work1 {
                 System.out.print("Хорошо " + name + " напишите Ваш пол:");
                 String pol = scan.nextLine();
                 //я не понял как сделать Char, хотел сделать выбор типа woman / man
-                //но потом понял тут нужны условия
                 
                 System.out.println(name + " " + lastname + " " + age + " возраст" + " " + "пол: " + pol + " ");        
     }
